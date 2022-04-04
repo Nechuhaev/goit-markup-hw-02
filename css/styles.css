@@ -1,9 +1,10 @@
 body {
-  background-color: #E5E5E5;;
-  color: #757575;;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #E5E5E5;
+  ;
+  color: #212121;
+  font-family: "Roboto", Open Sans, sans-serif;
 }
+
 ul {
   list-style: none;
 }
@@ -12,17 +13,6 @@ ul {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
-}
-/* Основной цвет фона #FFFFFF */
-/* Цвет фона шапки #FFFFFF */
-/* Цвет текста основной и меню #212121 */
-/* Цвет текста Hoover #2196F3 */
-/* Цвет текста дополнительный #FFFFFF */
-/* Цвет фона дополнительный #E5E5E5 */
-/* Цвет фона серый #F5F4FA */
-/* Контакты в футере rgba(255, 255, 255, 0.6) */
 
 /* Header*/
 .page-header {
@@ -30,6 +20,11 @@ ul {
 }
 
 .logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196F3;
 }
 
@@ -39,25 +34,35 @@ ul {
 
 /* site-nav */
 .site-nav {
-  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196F3;
 }
+
 /* Menu header contacts */
-.header-contacts .link:hover, 
+.header-contacts {
+  color: #757575;
+}
+
+.header-contacts .link:hover,
 .header-contacts .link:focus {
   color: #2196F3;
 }
+
 /* Page Hero */
 .page-hero {
-background: #2F303A;
+  background: #2F303A;
 }
 
 .hero-title {
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 button {
@@ -66,15 +71,15 @@ button {
 }
 
 /* Features */
-.section-features {
+.section-features {}
 
+.features-name {
+  visibility: hidden;
 }
 
-.features {
-}
+.features {}
 
-.features-item {
-}
+.features-item {}
 
 .features-title {
   color: #212121;
@@ -83,19 +88,44 @@ button {
 .features-text {
   color: #757575;
 }
-/* Works */
-.section-works {
 
-}
+/* Works */
+.section-works {}
+
 .works-title {
   color: #212121;
 }
 
 .works-item {}
 
-.works-img {}
+.works-list {}
 
+.work-img {}
+
+/* Team */
+.section-team {}
+
+.team-title {}
+
+.team-item {}
+
+.team-list {}
+
+.team-img {}
+
+.team-name {}
+
+.team-position {}
+
+/* Footer */
+.page-footer {}
 
 .logo-light {
   color: #FFFFFF;
 }
+
+.page-address {}
+
+.address-list {}
+
+.address-item {}
