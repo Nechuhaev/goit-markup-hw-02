@@ -1,6 +1,5 @@
 body {
   background-color: #E5E5E5;
-  ;
   color: #212121;
   font-family: "Roboto", Open Sans, sans-serif;
 }
@@ -23,7 +22,7 @@ ul {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196F3;
 }
@@ -33,10 +32,10 @@ ul {
 }
 
 /* site-nav */
-.site-nav {
+.site-nav .link{
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -47,7 +46,7 @@ ul {
 }
 
 /* Menu header contacts */
-.header-contacts {
+.header-contacts .link {
   color: #757575;
 }
 
