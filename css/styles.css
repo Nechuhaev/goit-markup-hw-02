@@ -160,6 +160,7 @@ button {
 .page-address {}
 
 .address .link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -169,6 +170,7 @@ button {
 .address-list {}
 
 .address-item .link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -181,3 +183,26 @@ button {
 .address-item .link:focus {
   color: #2196F3;
 }
+
+.filtr {}
+
+.filtr-button {}
+
+.button-link {
+  background-color: #F5F4FA;
+  color: #212121;
+}
+
+.section-projects {}
+
+.projects-title {}
+
+.projects-item {}
+
+.projects-list {}
+
+.projects-img {}
+
+.projects-name {}
+
+.projects-desc {}
