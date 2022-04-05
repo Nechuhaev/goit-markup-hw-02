@@ -79,7 +79,7 @@ button {
   /* Features */
 .section-features {}
 
-.features-name, .projects-title, .filtr-title{
+.features-name, .projects-title, .filtr-name{
   visibility: hidden;
 }
 
@@ -188,7 +188,9 @@ button {
   color: #2196F3;
 }
 
-.page-filtr {}
+.page-filtr {
+  background-color: #FFFFFF;
+}
 
 .filtr-button {}
 
@@ -211,7 +213,7 @@ button {
   letter-spacing: 0.06em;
 }
 
-.projects-desc {
+.projects-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
