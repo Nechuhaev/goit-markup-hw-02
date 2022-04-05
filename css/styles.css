@@ -38,6 +38,7 @@ ul {
   color: #212121;
 }
 
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196F3;
@@ -72,10 +73,13 @@ button {
   color: #FFFFFF;
 }
 
-/* Features */
+.pointer {
+  cursor: pointer;}
+
+  /* Features */
 .section-features {}
 
-.features-name {
+.features-name, .projects-title, .filtr-title{
   visibility: hidden;
 }
 
@@ -184,14 +188,11 @@ button {
   color: #2196F3;
 }
 
-.filtr {}
+.page-filtr {}
 
 .filtr-button {}
 
-.button-link {
-  background-color: #F5F4FA;
-  color: #212121;
-}
+.button-link {}
 
 .section-projects {}
 
@@ -203,6 +204,16 @@ button {
 
 .projects-img {}
 
-.projects-name {}
+.projects-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
-.projects-desc {}
+.projects-desc {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
