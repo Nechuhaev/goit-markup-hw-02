@@ -1,5 +1,5 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
   color: #212121;
   font-family: "Roboto", Open Sans, sans-serif;
 }
@@ -15,7 +15,7 @@ ul {
 
 /* Header*/
 .page-header {
-  background: #FFFFFF;
+
 }
 
 .logo {
@@ -61,7 +61,12 @@ ul {
 }
 
 .hero-title {
-  color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
 button {
@@ -70,7 +75,9 @@ button {
 }
 
 /* Features */
-.section-features {}
+.section-features {
+
+}
 
 .features-name {
   visibility: hidden;
@@ -81,18 +88,31 @@ button {
 .features-item {}
 
 .features-title {
-  color: #212121;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .features-text {
-  color: #757575;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /* Works */
-.section-works {}
+.section-works {
+
+}
 
 .works-title {
-  color: #212121;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 }
 
 .works-item {}
@@ -102,29 +122,75 @@ button {
 .work-img {}
 
 /* Team */
-.section-team {}
+.section-team {
+background: #F5F4FA;
+}
 
-.team-title {}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
 
-.team-item {}
+.team-item {
+  background: #FFFFFF;
+}
 
 .team-list {}
 
 .team-img {}
 
-.team-name {}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
-.team-position {}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /* Footer */
-.page-footer {}
+.page-footer {
+  background: #2F303A;
+}
 
 .logo-light {
   color: #FFFFFF;
 }
 
-.page-address {}
+.page-address {
 
+}
+
+.address .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
 .address-list {}
 
-.address-item {}
+.address-item .link{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .link:hover,
+.address .link:focus,
+.address-item .link:hover,
+.address-item .link:focus {
+color: #2196F3;
+}
